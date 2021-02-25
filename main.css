@@ -1,0 +1,87 @@
+header#top{
+    width: 90%;
+    margin-top: 5%;
+    margin-left: 10%;
+}
+
+header#logo{
+    margin-left: 24%;
+}
+header#top section#objectives{
+    width: 25%;
+    float: left;
+}
+header#top section#experience{
+    width: 50%;
+    float: right;
+    margin-right: 10%;
+}
+article{
+    width: 90%;
+    margin-left: 10%                
+}
+article section#skills, section#education{
+    margin-top: 1.5%;
+}
+article section#skills{
+    width: 25%;
+    float: left;
+    clear:both;
+}
+article section#education{
+    width: 50%;
+    float: right;
+    margin-right: 10%;
+}
+footer#bottom{
+    width: 90%;
+    margin-left: 10%;
+}
+footer#bottom section#volunteer{
+    width: 50%;
+    float: right;
+    margin-top: 1.5%;
+    margin-left: 40%;
+}
+nav{
+    background-color: #218b16;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+ul{
+    display: flex;
+    justify-content: center;
+}
+ul li{
+    display: inline-block;
+    padding: 12px 16px;
+    margin: 0 15px;
+    cursor: pointer;
+    color: white;
+}
+footer{
+    display:flex;
+    flex-direction: column;
+    margin-top: 10%;
+}
+
+.fab{
+    color: black;
+    font-size: 30px;
+}
+
+.far{
+    color: black;
+    font-size: 30px;
+}
+
+.fab:hover{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+
+.far:hover{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+
